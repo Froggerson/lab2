@@ -16,14 +16,39 @@ body {
      padding: 20px;
 }
 
-p {
-    font-variant: small-caps;
+.intro{
+		width:  70vw;
+		margin: 30px auto;
+		display: flex;
+		justify-content: space-between;
+}
+
+.intro img{
+		display: inline-block;
+		width:30vw;
+}
+
+.intro p{
+	width: 30vw;
+	font-size: 1.5rem;
 }
 
 .project p {
     font-variant: small-caps;
+		text-align:center;
+		padding: 15px 0;
+		font-size: 2rem;
 }
 
+.project{
+	width:70vw;
+	margin: auto;
+	text-align:center;
+}
+h4{
+	font-size:3rem;
+	color: #2a6496;
+}
 
 #project1 {
     font-variant: small-caps;
